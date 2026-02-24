@@ -42,7 +42,7 @@ pd.to_numeric(errors='coerce')
 
 5. Handled missing values using mean imputation.
 
-🔢 Techniques Applied
+🔢 Techniques Applied:-
  1️⃣ Min-Max Normalization
 
  Rescales data between 0 and 1.
@@ -85,4 +85,4 @@ Normalization ensures values are scaled within a fixed range (0–1), while Stan
 
 👨‍💻 Author
 
-Aditya Patil
+Aditya Patil.
