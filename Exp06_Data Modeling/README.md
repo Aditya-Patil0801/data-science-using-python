@@ -8,7 +8,7 @@ The experiment uses a **dirty dataset of cafe sales**, which requires preprocess
 
 ---
 
-## 📂 Dataset
+# 📂 Dataset
 
 **Dataset Name:** `dirty_cafe_sales.csv`
 
