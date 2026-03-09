@@ -1,128 +1,133 @@
-# 📊 Data Science Using Python Lab (DSPL)
+📊 Data Science Using Python Lab (DSPL)
 
-This repository contains practical experiments performed as part of the **Data Science Using Python Lab** course using **Python and Jupyter Notebook**.
+This repository contains practical experiments performed as part of the Data Science Using Python Lab (DSPL) course using Python and Jupyter Notebook.
 
-The experiments cover essential data science concepts including data preprocessing, visualization, feature scaling, outlier detection, and handling imbalanced datasets.
+The experiments cover important data preprocessing, visualization, machine learning modeling, and statistical analysis techniques used in data science.
 
----
+🛠 Technologies Used
+Python
+Jupyter Notebook
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Scikit-learn
+Imbalanced-learn (SMOTE)
+SciPy (Statistical Testing)
 
-## 📌 Technologies Used
+📂 Experiments Included
 
-- Python
-- Jupyter Notebook
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Imbalanced-learn (SMOTE)
-
----
-
-## 📂 Experiments Included
-
----
-
-### 🔹 EXP01 – Data Cleaning
-
+🔹 EXP01 – Data Cleaning
 Performed data preprocessing tasks such as:
+Handling missing values
+Removing duplicate records
+Data formatting and transformation
+Preparing raw data for analysis
 
-- Handling missing values
-- Removing duplicate records
-- Data formatting and cleaning
-- Preparing raw data for analysis
+🔹 EXP02 – Data Visualization
+Created visualizations to understand data patterns and distributions.
+Visualizations Used
+Line Plot
+Bar Chart
+Histogram
+Scatter Plot
+Distribution Plot
+Libraries used:
+Matplotlib
+Seaborn
 
----
+🔹 EXP03 – Outlier Detection
+Detected and handled outliers using statistical techniques.
+Methods Used
+Interquartile Range (IQR)
+Z-score method
+Boxplot visualization
 
-### 🔹 EXP02 – Data Visualization
+Outcome
+Identified abnormal values in the dataset
+Improved data quality before modeling
 
-Created various visualizations to understand data patterns:
+🔹 EXP04 – Normalization & Standardization
+Applied feature scaling techniques to normalize numerical data.
+Techniques Used
 
-- Line plots
-- Bar charts
-- Histograms
-- Scatter plots
-- Distribution plots
+1️⃣ Min-Max Normalization
+Scales values between 0 and 1
+Implemented using MinMaxScaler
 
-Used libraries:
+2️⃣ Standardization (Z-score Scaling)
+Mean = 0
+Standard deviation = 1
+Implemented using StandardScaler
 
-- Matplotlib
-- Seaborn
+Outcome
+Ensures fair contribution of features
+Improves machine learning model performance
 
----
+🔹 EXP05 – Handling Class Imbalance (SMOTE)
+Handled imbalanced datasets using SMOTE (Synthetic Minority Over-sampling Technique).
+Steps Performed
+Data preprocessing
+Encoding categorical variables
+Train-test split
+Model training using Logistic Regression
+Applied SMOTE to balance the dataset
+Compared model performance before and after SMOTE
 
-### 🔹 EXP03 – Outlier Detection
+Outcome
+Balanced dataset
+Improved classification accuracy
+Reduced bias toward majority class
 
-Detected and handled outliers using statistical methods:
+🔹 EXP06 – Data Modeling
+Implemented machine learning models on the dataset to analyze prediction performance.
+Steps Performed
+Data preprocessing
+Feature selection
+Train-test dataset split
+Model training using classification algorithms
+Model evaluation using accuracy
+Algorithms Used
+Logistic Regression
+Support Vector Machine (SVC)
+Cross Validation
 
-- Interquartile Range (IQR)
-- Z-score method
-- Visualization using boxplots
+Outcome
+Built predictive models
+Evaluated model performance using validation techniques
 
-Helped in improving data quality and analysis accuracy.
+🔹 EXP07 – Hypothesis Testing
+Performed statistical hypothesis testing on dataset samples.
+Technique Used
+Two-Sample Z-Test
+Steps Performed
+Formulated null hypothesis (H₀) and alternative hypothesis (H₁)
+Calculated sample mean and standard deviation
+Computed Z-statistic
+Compared with critical value
 
----
+Outcome
+Determined whether there is a statistically significant difference between two samples.
 
-### 🔹 EXP04 – Normalization & Standardization
-
-Applied feature scaling techniques to numerical data.
-
-#### Techniques used:
-
-**1. Min-Max Normalization**
-- Scales values between 0 and 1
-- Implemented using `MinMaxScaler`
-
-**2. Standardization (Z-score Scaling)**
-- Mean = 0
-- Standard deviation = 1
-- Implemented using `StandardScaler`
-
-#### Outcome:
-- Improved feature scaling
-- Prepared data for machine learning models
-- Ensured fair contribution of all features
-
----
-
-### 🔹 EXP05 – Handling Class Imbalance Using SMOTE
-
-Handled imbalanced dataset using SMOTE (Synthetic Minority Over-sampling Technique).
-
-#### Steps performed:
-
-- Data loading and preprocessing
-- Encoding categorical variables
-- Train-test splitting
-- Model training using Logistic Regression
-- Applied SMOTE to balance minority class
-- Compared model performance before and after SMOTE
-
-#### Outcome:
-
-- Balanced dataset
-- Improved classification performance
-- Reduced bias toward majority class
-- Better recall and fairness in predictions
-
----
-
-## 🎯 Learning Outcomes
+🎯 Learning Outcomes
 
 Through these experiments, the following skills were developed:
+Data cleaning and preprocessing
+Data visualization
+Outlier detection techniques
+Feature scaling methods
+Handling imbalanced datasets
+Machine learning model implementation
+Statistical hypothesis testing
 
-- Data preprocessing and cleaning
-- Data visualization
-- Outlier detection and handling
-- Feature scaling techniques
-- Handling imbalanced datasets
-- Machine learning model training and evaluation
+🚀 How to Run
+1️⃣ Clone the Repository
+git clone https://github.com/Aditya-Patil0801/your-repo-name.git
+2️⃣ Navigate to the folder
+cd dspl-lab
+3️⃣ Open Jupyter Notebook
+jupyter notebook
 
----
 
-## 🚀 How to Run
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/dspl-lab.git
+👨‍💻 Author
+Aditya Patil
