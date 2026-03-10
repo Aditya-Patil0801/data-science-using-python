@@ -24,7 +24,7 @@ Removing duplicate records
 Data formatting and transformation
 Preparing raw data for analysis
 
-🔹 EXP02 – Data Visualization
+🔹 EXP02A – Data Visualization / Exploratory Data Analysis for the selected data set using Matplotlib and Seaborn.
 Created visualizations to understand data patterns and distributions.
 Visualizations Used
 Line Plot
