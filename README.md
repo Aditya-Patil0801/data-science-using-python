@@ -5,129 +5,175 @@ This repository contains practical experiments performed as part of the Data Sci
 The experiments cover important data preprocessing, visualization, machine learning modeling, and statistical analysis techniques used in data science.
 
 🛠 Technologies Used
+
 Python
+
 Jupyter Notebook
+
 NumPy
+
 Pandas
+
 Matplotlib
+
 Seaborn
+
 Scikit-learn
+
 Imbalanced-learn (SMOTE)
+
 SciPy (Statistical Testing)
 
 📂 Experiments Included
-
 🔹 EXP01 – Data Cleaning
+
 Performed data preprocessing tasks such as:
+
 Handling missing values
+
 Removing duplicate records
+
 Data formatting and transformation
+
 Preparing raw data for analysis
 
-🔹 EXP02A – Data Visualization / Exploratory Data Analysis for the selected data set using Matplotlib and Seaborn.
-Created visualizations to understand data patterns and distributions.
-Visualizations Used
+🔹 EXP02A – Data Visualization
+
+Performed Exploratory Data Analysis using Matplotlib and Seaborn.
+
+Visualizations Used:
+
 Line Plot
+
 Bar Chart
+
 Histogram
+
 Scatter Plot
+
 Distribution Plot
-Libraries used:
-Matplotlib
-Seaborn
 
 🔹 EXP03 – Outlier Detection
+
 Detected and handled outliers using statistical techniques.
-Methods Used
+
+Methods Used:
+
 Interquartile Range (IQR)
+
 Z-score method
+
 Boxplot visualization
 
-Outcome
-Identified abnormal values in the dataset
-Improved data quality before modeling
-
 🔹 EXP04 – Normalization & Standardization
-Applied feature scaling techniques to normalize numerical data.
-Techniques Used
 
-1️⃣ Min-Max Normalization
-Scales values between 0 and 1
-Implemented using MinMaxScaler
+Applied feature scaling techniques.
 
-2️⃣ Standardization (Z-score Scaling)
-Mean = 0
-Standard deviation = 1
-Implemented using StandardScaler
+Techniques Used:
 
-Outcome
-Ensures fair contribution of features
-Improves machine learning model performance
+Min-Max Normalization
+
+Standardization (Z-score Scaling)
 
 🔹 EXP05 – Handling Class Imbalance (SMOTE)
-Handled imbalanced datasets using SMOTE (Synthetic Minority Over-sampling Technique).
-Steps Performed
-Data preprocessing
-Encoding categorical variables
-Train-test split
-Model training using Logistic Regression
-Applied SMOTE to balance the dataset
-Compared model performance before and after SMOTE
 
-Outcome
-Balanced dataset
-Improved classification accuracy
-Reduced bias toward majority class
+Handled imbalanced datasets using SMOTE.
+
+Steps:
+
+Data preprocessing
+
+Encoding
+
+Train-test split
+
+Logistic Regression
+
+SMOTE application
 
 🔹 EXP06 – Data Modeling
-Implemented machine learning models on the dataset to analyze prediction performance.
-Steps Performed
-Data preprocessing
-Feature selection
-Train-test dataset split
-Model training using classification algorithms
-Model evaluation using accuracy
-Algorithms Used
+
+Built and evaluated machine learning models.
+
+Algorithms Used:
+
 Logistic Regression
+
 Support Vector Machine (SVC)
+
 Cross Validation
 
-Outcome
-Built predictive models
-Evaluated model performance using validation techniques
-
 🔹 EXP07 – Hypothesis Testing
-Performed statistical hypothesis testing on dataset samples.
-Technique Used
-Two-Sample Z-Test
-Steps Performed
-Formulated null hypothesis (H₀) and alternative hypothesis (H₁)
-Calculated sample mean and standard deviation
-Computed Z-statistic
-Compared with critical value
 
-Outcome
-Determined whether there is a statistically significant difference between two samples.
+Performed statistical hypothesis testing.
+
+Technique Used:
+
+Two-Sample Z-Test
+
+🔹 EXP08 – Regression Analysis
+
+Performed regression-based analysis to predict outcomes using dataset features.
+
+Steps Performed:
+
+Data loading and cleaning
+
+Feature selection (Quantity, Price Per Unit, Total Spent)
+
+Encoding categorical target variable
+
+Train-test split
+
+Model training using Logistic Regression
+
+Prediction on test data
+
+Evaluation Metrics:
+
+Accuracy Score
+
+Confusion Matrix
+
+Outcome:
+
+Built a predictive model
+
+Understood relationship between variables
+
+Evaluated model performance
 
 🎯 Learning Outcomes
 
-Through these experiments, the following skills were developed:
 Data cleaning and preprocessing
+
 Data visualization
+
 Outlier detection techniques
+
 Feature scaling methods
+
 Handling imbalanced datasets
+
 Machine learning model implementation
+
 Statistical hypothesis testing
 
+Regression & prediction modeling
+
 🚀 How to Run
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/Aditya-Patil0801/your-repo-name.git
-2️⃣ Navigate to the folder
+
+2️⃣ Navigate to folder
+
 cd dspl-lab
-3️⃣ Open Jupyter Notebook
+
+3️⃣ Run Jupyter Notebook
+
 jupyter notebook
-
-
 👨‍💻 Author
+
 Aditya Patil
